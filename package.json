@@ -9,5 +9,8 @@
   },
   "dependencies": {
     "ejs": "^3.1.10"
+  },
+  "scripts": {
+    "build": "node -e \"require('ejs').renderFile('views/pages/index.ejs', { title: 'DroneQube', appName: 'DroneQube App' }, (err, str) => require('fs').writeFileSync('public/index.html', str))\""
   }
 }
