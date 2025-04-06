@@ -1,12 +1,24 @@
-// File: /api/page.ts
-import type { VercelRequest, VercelResponse } from '@vercel/node'
-import { readFileSync } from 'fs'
-import { join } from 'path'
+import type { VercelRequest, VercelResponse } from '@vercel/node';
+import { renderFile } from 'ejs';
+import { join } from 'path';
 
-export default function handler(req: VercelRequest, res: VercelResponse) {
-  const filePath = join(process.cwd(), 'public', 'lights.html')
-  const html = readFileSync(filePath, 'utf-8')
+export default async function handler(req: VercelRequest, res: VercelResponse) {
+    const filePath = join(process.cwd(), 'views/pages', 'index.ejs');
 
-  res.setHeader('Content-Type', 'text/html')
-  res.status(200).send(html)
+    // Data to pass to the EJS template
+    const data = {
+        title: 'DroneQube',
+        appName: 'DroneQube App'
+    };
+
+    try {
+        // Render the EJS template
+        const html = await renderFile(filePath, data);
+        // Send the rendered HTML as the response
+        res.setHeader('Content-Type', 'text/html');
+        res.status(200).send(html);
+    } catch (error) {
+        console.error('Error rendering EJS:', error);
+        res.status(500).send('Internal Server Error');
+    }
 }
