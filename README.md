@@ -8,8 +8,12 @@
 
 # [dq routes in progress: flight-hub](https://attila5287.github.io/flight-route-3d/)
 
-# INFO
-> creating 3-d flight routes for drones
+# INFO (creating 3-d flight routes for drones)
+> a route -geo- to climb the highest bldg in Denver, CO (218 meters)
+> a family of routes: Area, Waypoint, Slope and Linear
+> test route for geo
+
+![Screenshot 2025-03-31 190243](https://github.com/user-attachments/assets/1602f970-8e65-485e-b902-af3be93a8d76)
 
 ![image](https://github.com/user-attachments/assets/469df02c-8d5a-4235-aa47-b8e8557fb7fa)
 
