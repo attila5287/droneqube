@@ -1,12 +1,12 @@
-# [dq vercel deploy](https://droneqube.vercel.app/)
+# DRONEQUBE README
+## [dq vercel deploy link](https://droneqube.vercel.app/)
 > next.js framework for vercel, no-db
 
-# [dq heroku deploy](https://droneqube-af1f2d011124.herokuapp.com/)
+## [dq heroku deploy link with database](https://droneqube-af1f2d011124.herokuapp.com/)
 > mongo db, express framework (heroku)
 # THREE.JS, mapbox GLJS, mapbox GL Draw, 
 
-# [routes in progress](https://attila5287.github.io/flight-route-3d/)
-
+# [dq routes in progress: flight-hub](https://attila5287.github.io/flight-route-3d/)
 
 # INFO
 > creating 3-d flight routes for drones
