@@ -1,31 +1,12 @@
-# Node.js Hello World
+# [dq vercel deploy](https://droneqube.vercel.app/)
+> next.js framework for vercel, no-db
 
-Simple Node.js + Vercel example that returns a "Hello World" response.
+# [dq heroku deploy](https://droneqube-af1f2d011124.herokuapp.com/)
+> mongo db, express framework (heroku)
+# THREE.JS, mapbox GLJS, mapbox GL Draw, 
 
-## How to Use
+# INFO
+> creating 3-d flight route, (similar to DJI's geometrical route) 
+![image](https://github.com/user-attachments/assets/469df02c-8d5a-4235-aa47-b8e8557fb7fa)
 
-You can choose from one of the following two methods to use this repository:
 
-### One-Click Deploy
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/examples/tree/main/solutions/node-hello-world&project-name=node-hello-world&repository-name=node-hello-world)
-
-### Clone and Deploy
-
-```bash
-git clone https://github.com/vercel/examples/tree/main/solutions/node-hello-world
-```
-
-Install the Vercel CLI:
-
-```bash
-npm i -g vercel
-```
-
-Then run the app at the root of the repository:
-
-```bash
-vercel dev
-```
